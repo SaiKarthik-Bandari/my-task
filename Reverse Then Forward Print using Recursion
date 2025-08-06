@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void incrdcre(int n){
+        if(n==0)
+            return ;
+        System.out.print(n+" ");
+        incrdcre(n-1);
+        System.out.print(n+" ");
+        
+    } 
+    public static void main(String[] args) {
+     Scanner in=new Scanner(System.in);
+        int n=in.nextInt();
+        incrdcre(n);
+    }
+    }
